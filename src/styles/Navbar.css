@@ -1,23 +1,25 @@
 .navbar ul li a {
     color:white;
-    text-decoration: none;   
+    text-decoration: none;
+    padding:8px 25px;
+    transition:all 0.5s ease;  
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 25px 5px;
-    align-items: center;
-}
-
-.navbar  ul{
+.navbar ul{
     list-style: none;
     display: flex;
+    margin: 20px 0px;
     justify-content: space-between;
+}
+
+.navbar ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 1024px) {
-    .navbar .nav{
+    .navbar .menu{
         width:90%;
     }    
 }

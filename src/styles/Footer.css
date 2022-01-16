@@ -1,0 +1,25 @@
+.footer{
+    /* background: #1b212f; */
+    background: #c1c1c1;
+    padding: 70px 0 50px 0;
+    position: relative;
+}
+
+.footerPage img{
+    background: #262f38;
+    cursor:pointer;
+    font-size: 18pt;
+    height: 55px;
+    margin: 0 15px;
+    overflow:hidden;
+    position:relative;
+    text-align: center;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    width:55px;
+}
+.footerPage a img:hover{
+    background: #04c2c9;
+    box-shadow: 0 0 0 3px rgb(4 94 201 / 10%);
+    transform: scale(0.9);
+    justify-content: center;
+}

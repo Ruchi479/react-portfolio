@@ -1,13 +1,24 @@
 import React from 'react';
-import myimg from "../assets/img1.jpg"
+import myimg from "../assets/img1.jpg";
+import '../../styles/Aboutme.css';
+
+const styles ={
+  aboutStyle: {
+    display: 'flex',
+    flexDirection: 'column',
+    boxSizing: 'border-box',
+    padding: '20px',
+    marginBottom: '50px',
+  },
+}
 
 export default function About() {
   return (
-    <section id="about" className="container">
-        <h1 id="headings">About Me</h1>
-        <div id="pic">
-            <img src={myimg} alt="Image unavailable"/>
-            <div id="intro">
+    <section className="container" style={styles.aboutStyle}>
+        <h1 className="headings">About Me</h1>
+        <div className="pic">
+            <img src={myimg} alt="unavailable"/>
+            <div className="intro">
                 <h2>Ruchi</h2>
                 <p> 
                   Hello, I'm Ruchi! I switched my gears from my education in Teaching to take on Web Development to keep challenging myself in ways I thought I never could. 

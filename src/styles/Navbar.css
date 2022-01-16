@@ -1,0 +1,23 @@
+.navbar ul li a {
+    color:white;
+    text-decoration: none;   
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 5px;
+    align-items: center;
+}
+
+.navbar  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar .nav{
+        width:90%;
+    }    
+}

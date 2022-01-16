@@ -5,7 +5,7 @@ export default function Portfolio() {
     <div>
       <h1>Portfolio</h1>
       <p>
-        Integer cursus bibendum sem non pretium.
+        Integer cursus bibendum sem non pretium my portfolio.
       </p>
     </div>
   );

@@ -1,14 +1,22 @@
 import React from "react";
 import '../styles/Project.css';
 
+const styles ={
+    largepicStyle: {
+    padding: '12px',
+    width:'570px',
+    /* max-width: 100%; */
+    height:'400px',
+    margin: '15px',
+    },
+  }
 
 export default function PortfolioCard(props) {
     return (
         <div >
-            <h1 className="headings">Projects</h1>
             <div className="img-container">
 
-                <img alt={props.name} src={props.image} />
+                <img alt={props.name} src={props.image} className="largepic" style={styles.largepicStyle}/>
             </div>
             <div className="content">
                 <ul>
@@ -16,10 +24,13 @@ export default function PortfolioCard(props) {
                         <strong>Name:</strong> {props.name}
                     </li>
                     <li>
-                        <strong>Project:</strong> {props.project}
+                        <strong>Topics:</strong> {props.topics}
                     </li>
                     <li>
-                        <strong>Demo:</strong> {props.location}
+                        <strong>Deploy Site:</strong> {props.deploy}
+                    </li>
+                    <li>
+                        <strong>GitHub:</strong> {props.github}
                     </li>
 
                 </ul>

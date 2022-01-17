@@ -6,3 +6,26 @@
     color:Green;
     
 }
+
+.gallery, .linked{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.work .project{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.headings .img-container img{
+    padding:12px;
+    width:470px;
+    /* max-width: 100%; */
+    height:350px;
+    margin: 15px;
+}

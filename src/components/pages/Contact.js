@@ -45,7 +45,7 @@ export default function ContactForm() {
   }
 
   return (
-    <section className="contact" style={styles.contactStyle}><br/><br/>
+    <section className="contact" style={styles.contactStyle}>
       <h1 className='headings'>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
           <label htmlFor="name">Name:</label><br/>

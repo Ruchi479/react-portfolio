@@ -14,7 +14,7 @@ const styles ={
 export default function Resume() {
     return (
         <div>
-            <section className ='resume' style={styles.resumeStyle}><br/><br/>
+            <section className ='resume' style={styles.resumeStyle}>
               <h1 className="headings">My Skills</h1>
               <div className="container">
                 <div className="data">

@@ -17,7 +17,7 @@ const styles ={
 
 export default function Portfolio() {
   return (
-    <div className="work" style={styles.workStyle}><br/><br/>
+    <div className="work" style={styles.workStyle}>
       <h1 className="headings">Projects</h1>
       {/* <div className="container portfolio-container"> */}
       <div className="linkedin">

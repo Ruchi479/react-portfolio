@@ -12,6 +12,12 @@
     justify-content: space-between;
 }
 
+.navbar .menu li a:hover{
+    color:black;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
+
 .navbar ul li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
@@ -20,6 +26,6 @@
 
 @media screen and (max-width: 1024px) {
     .navbar .menu{
-        width:90%;
+        width:80%;
     }    
 }

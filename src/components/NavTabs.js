@@ -4,39 +4,43 @@ import '../styles/Navbar.css';
 
 const styles = {
   navbarStyle: {
-    background: '#282c34',
     display: 'flex',
-    justifyContent: 'space-between',
-    padding: '10px 25px 5px',
+    justifyContent: 'center',
     alignItems: 'center',
     borderBottom: '4px solid #3bb99b',
-    position: 'fixed',
-    zIndex: '10',
-    left: '0',
-    right: '0',
-    height:'40px',
-  },
+    backgroundColor: '#282c34',
+    flexDirection: 'column',
+    position:'fixed',
+    width:'100%',
+  }, 
 
-  navitemStyle: {
-    maxWidth: '1060px',
-    color:'white',
-    display: 'flex',
-    justifyContent: 'flex-end',
-  },
+   // navbarStyle: {
+  //   background: '#282c34',
+  //   display: 'flex',
+  //   justifyContent: 'space-between',
+  //   padding: '10px 25px 5px',
+  //   alignItems: 'center',
+  //   borderBottom: '4px solid #3bb99b',
+  //   position: 'fixed',
+  //   zIndex: '10',
+  //   left: '0',
+  //   right: '0',
+  //   height:'40px',
+  // },
 
-  navanchorStyle:{
-    color: 'green',
-    textDecoration:'none',
-    padding: '8px 25px',
-    transition: 'all 0.5s ease',
-  }
+  // navitemStyle: {
+  //   maxWidth: '1060px',
+  //   color:'white',
+  //   display: 'flex',
+  //   justifyContent: 'flex-end',
+  // },
 }
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav style = {styles.navbarStyle} className="navbar">
-      <ul className="nav nav-tabs menu" style = {styles.navitemStyle}>
+      <ul className="menu" style = {styles.menuStyle}>
         <li className="nav-item">
           <a 
             href="#About" style = {styles.navanchorStyle}

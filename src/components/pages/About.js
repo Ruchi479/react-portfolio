@@ -14,7 +14,7 @@ const styles ={
 
 export default function About() {
   return (
-    <section className="container" style={styles.aboutStyle}>
+    <section className="container" style={styles.aboutStyle}><br/><br/>
         <h1 className="headings">About Me</h1>
         <div className="pic">
             <img src={myimg} alt="unavailable"/>

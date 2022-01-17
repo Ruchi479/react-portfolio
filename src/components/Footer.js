@@ -8,18 +8,25 @@ const styles ={
         padding: '30px 0 15px 0',
         position: 'relative',
         display:'block',
+        // flexDirection:'row',
+        display:'flex',
+        justifyContent:'center',
     },
 
-    footerNote: {
+    footerIcon: {
         background: '#262f38',
         cursor: 'pointer',
-        height: '55px',
+        fontSize:'18pt',
+        height: '50px',
         margin: '0 15px',
         overflow:'hidden',
         position: 'relative',
         textAlign: 'center',
-        width:'55px',
+        width:'45px',
         transition: 'background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s',
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'center',
     },
 }
 
@@ -34,13 +41,13 @@ export default function Footer() {
 
 
         <div className="footerPage" style={styles.footerPage}>
-            <div className='icon-wrap flex row'>
+            <div className='row'>
                 <a href="https://www.linkedin.com/in/ruchi-saini-007/" target="_blank">
-                    <img src={require("./assets/linkedin.png")} alt="github" className="footerNote flex icon" style={styles.footerNote}/>
+                    <img src={require("./assets/linkedin.png")} alt="github" className="footerIcon" style={styles.footerIcon}/>
                 </a>
                 
                 <a href="https://github.com/Ruchi479" target="_blank">
-                    <img src={require("./assets/github.png")} alt="github" className="footerNote flex icon" style={styles.footerNote}/>
+                    <img src={require("./assets/github.png")} alt="github" className="footerIcon" style={styles.footerIcon}/>
                 </a>
             </div>
         </div>

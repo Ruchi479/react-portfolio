@@ -34,13 +34,13 @@ export default function Footer() {
 
 
         <div className="footerPage" style={styles.footerPage}>
-            <div>
+            <div className='icon-wrap flex row'>
                 <a href="https://www.linkedin.com/in/ruchi-saini-007/" target="_blank">
-                    <img src={require("./assets/linkedin.png")} alt="github" className="footerNote" style={styles.footerNote}/>
+                    <img src={require("./assets/linkedin.png")} alt="github" className="footerNote flex icon" style={styles.footerNote}/>
                 </a>
                 
                 <a href="https://github.com/Ruchi479" target="_blank">
-                    <img src={require("./assets/github.png")} alt="github" className="footerNote" style={styles.footerNote}/>
+                    <img src={require("./assets/github.png")} alt="github" className="footerNote flex icon" style={styles.footerNote}/>
                 </a>
             </div>
         </div>

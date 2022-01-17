@@ -50,15 +50,6 @@ export default function Resume() {
                       <li>Progressive Web Applications (PWA)</li>{" "}
                     </ul>
                     <br></br>
-
-                      {/* <ul>
-                          <h3>Dev Tool Proficiencies</h3>
-                          <li>Git</li>
-                          <li>npm</li>
-                          <li>Jest</li>
-                          <li>Webpack</li>
-                      </ul> */}
-                    <br></br>
                   </div>
               </div>
             </section>

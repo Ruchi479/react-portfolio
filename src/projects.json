@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Flight Finder App",
+        "image": "https://raw.githubusercontent.com/Ruchi479/flightFinder/main/assets/pictures/take1.png",
+        "github": "https://github.com/Ruchi479/flightFinder.git",
+        "deploy": "https://trangthedev.github.io/flightFinder/",
+        "topics": "HTML, CSS, JavaScript, JQuery"
+    },
+    {
+        "id": 2,
+        "name": "Psuedoshopper App",
+        "image": "https://raw.githubusercontent.com/Ruchi479/PsuedoShopper/main/public/images/homepage.png",
+        "github": "https://github.com/Ruchi479/PsuedoShopper.git",
+        "deploy": "https://psuedoshopper.herokuapp.com/",
+        "topics": "HTML, CSS, Javascript, Node JS, Express, MySQL, Sequelize, Handlebars, Chart.js, Bcrypt, Express-session"
+    },
+    {
+        "id": 3,
+        "name": "Tech Blog",
+        "image": "https://raw.githubusercontent.com/Ruchi479/Tech-Blog/main/public/images/img1.png",
+        "github": "https://github.com/Ruchi479/Tech-Blog.git",
+        "deploy": "https://tech-blog-ruchi.herokuapp.com/",
+        "topics": "Node JS, MySQL, Express, Handlebars.js, bcrypt, Connect-session-sequelize"
+    },
+    {
+        "id": 4,
+        "name": "Note Taker",
+        "image": "https://raw.githubusercontent.com/Ruchi479/Note-Taker/main/Assets/images/note2.png",
+        "github": "https://github.com/Ruchi479/Note-Taker.git",
+        "deploy": "https://express-note-taker-01.herokuapp.com/",
+        "topics": "HTML, CSS, Javascript, Node JS, Express"
+    },
+    {
+        "id": 5,
+        "name": "Quiz App",
+        "image": "https://raw.githubusercontent.com/Ruchi479/Bootcamp-JavaScript-Code-Quiz/main/assets/img/Img1.jpg",
+        "github": "https://github.com/Ruchi479/Bootcamp-JavaScript-Code-Quiz.git",
+        "deploy": "https://ruchi479.github.io/Bootcamp-JavaScript-Code-Quiz/",
+        "topics": "HTML, CSS, Bootstrap, JavaScript"
+    },
+    {
+        "id": 6,
+        "name": "Weather App",
+        "image": "https://raw.githubusercontent.com/Ruchi479/Weather-Dashboard/main/Assets/img/img1.jpg",
+        "github": "https://github.com/Ruchi479/Weather-Dashboard.git",
+        "deploy": "https://ruchi479.github.io/Weather-Dashboard/",
+        "topics": "HTML, CSS, Bootstrap, Javascript, Jquery"
+    }
+    
+]

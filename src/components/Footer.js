@@ -7,7 +7,7 @@ const styles ={
         background: '#c1c1c1',
         padding: '30px 0 15px 0',
         position: 'relative',
-        display:'block',
+        // display:'block',
         // flexDirection:'row',
         display:'flex',
         justifyContent:'center',

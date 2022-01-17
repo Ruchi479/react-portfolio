@@ -13,7 +13,7 @@ const styles ={
 
 export default function PortfolioCard(props) {
     return (
-        <div >
+        <div>
             <div className="img-container">
 
                 <img alt={props.name} src={props.image} className="largepic" style={styles.largepicStyle}/>

@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "Quiz App",
-        "image": "https://raw.githubusercontent.com/Ruchi479/Bootcamp-JavaScript-Code-Quiz/main/assets/img/Img1.jpg",
+        "image": "https://raw.githubusercontent.com/Ruchi479/Bootcamp-JavaScript-Code-Quiz/main/assets/img/new.jpg",
         "github": "https://github.com/Ruchi479/Bootcamp-JavaScript-Code-Quiz.git",
         "deploy": "https://ruchi479.github.io/Bootcamp-JavaScript-Code-Quiz/",
         "topics": "HTML, CSS, Bootstrap, JavaScript"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "name": "Weather App",
-        "image": "https://raw.githubusercontent.com/Ruchi479/Weather-Dashboard/main/Assets/img/img1.jpg",
+        "image": "https://raw.githubusercontent.com/Ruchi479/Weather-Dashboard/main/Assets/img/new.jpg",
         "github": "https://github.com/Ruchi479/Weather-Dashboard.git",
         "deploy": "https://ruchi479.github.io/Weather-Dashboard/",
         "topics": "HTML, CSS, Bootstrap, Javascript, Jquery"

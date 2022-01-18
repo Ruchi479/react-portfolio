@@ -1,11 +1,9 @@
-.footerPage.footerIcon{
-    flex-direction: row;
+.footer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* not working */
-.footerPage a img:hover{
-    background: #04c2c9;
-    box-shadow: 0 0 0 3px rgb(4 94 201 / 10%);
-    transform: scale(0.9);
-    justify-content: center;
+.icon{
+  padding: 10px;
 }

@@ -21,3 +21,13 @@ code {
 html{
   scroll-behavior: smooth;
 }
+
+.footer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  padding: 10px;
+}

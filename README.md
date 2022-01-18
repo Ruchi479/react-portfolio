@@ -54,7 +54,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Links
 * [The URL of the GitHub repository](https://github.com/Ruchi479/react-portfolio.git)
 
-* [The URL of deployed application]()
+* [The URL of deployed application](https://ruchi479.github.io/react-portfolio/)
 
 ## Installation
 

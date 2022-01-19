@@ -23,6 +23,12 @@ const styles ={
         color: 'white',
         textShadow: '2px 2px 5px green',
     },
+    spanStyle:{
+        color:'white',
+        fontWeight:'800',
+        textShadow: '2px 2px 5px maroon',
+
+    }
     
 
   }
@@ -36,9 +42,9 @@ const styles ={
                 <div className="main" style={styles.mainStyle}>
                     
                     {/* <img src={img2} alt="unavailable"/>  */}
-                        <h1 className="text1" style={styles.text1Style} >Hi, My name is Ruchi</h1>
+                        <h2 className="text1" style={styles.text1Style} >Hi, My name is <span className="span" style={styles.spanStyle}>Ruchi</span></h2>
                     
-                        <h2 className="text1" style={styles.text1Style}>I am a Full Stack Web Developer</h2>
+                        <h2 className="text1" style={styles.text1Style}>I am a <span className="span" style={styles.spanStyle}>Full Stack Web Developer</span></h2>
                 </div>
             </div>
         </div>

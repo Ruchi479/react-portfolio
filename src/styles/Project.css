@@ -22,7 +22,7 @@
     justify-content: space-around;
 }
 
-@media screen and (max-width: 532px){
+/* @media screen and (max-width: 532px){
     .img-container .largepic{
         width:230px;
         height: 150px;
@@ -30,4 +30,4 @@
         align-items: center;
         margin: 0 10px 0 10px;
     }
-}
+} */

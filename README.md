@@ -6,6 +6,7 @@
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Links](#links)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -55,6 +56,11 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 * [The URL of the GitHub repository](https://github.com/Ruchi479/react-portfolio.git)
 
 * [The URL of deployed application](https://ruchi479.github.io/react-portfolio/)
+
+## Screenshots
+![React Portfolio](../src/components/assets/ss1.png)
+![React Portfolio](../src/components/assets/ss2.png)
+
 
 ## Installation
 

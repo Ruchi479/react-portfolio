@@ -1,13 +1,13 @@
-.data a .btn{
-    padding:10px 35px;
-    margin-top: 50px;
-    margin-right: 70px;
+.subcontainer a .btn{
+    padding:11px;
+    /* margin-top: 40px;
+    margin-right: 40px; */
     background-color: #eaeaea;
     border: 1px solid #c1c1c1;
     color: brown;
     outline: none;
     transition: .6s ease;
-    margin-left: 15px;
+    /* margin-left: 10px; */
 }
 
 .data{
@@ -43,6 +43,10 @@
     width:35%;
     margin-left:35px;
     color: white;
+}
+
+.subcontainer ul li{
+    list-style-type: circle;
 }
 
 /* tablet style*/

@@ -33,16 +33,6 @@ html{
 }
 
 /*contact*/
-/* .contactFormStyle{
-  display:block;
-  max-width: 600px;
-  margin: 0 auto;
-  border: 1px solid #c1c1c1;
-  padding: 15px;
-  border-radius:5px;
-  background-color: #eaeaea;
-  margin-bottom: 50px;
-} */
 
 .input-field{
   width:100%;
@@ -91,4 +81,126 @@ html{
       flex-direction: column;
       align-items: center;
   }
+}
+
+/* about */
+@media screen and (max-width: 1200px){
+  #intro p{
+      /* width:400px; */
+      line-height: 1.2;
+      font-size: 1.2rem;
+  }
+  #intro h2{
+      text-align: center;
+      font-size: 2rem;
+  }
+  #intro{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      /* padding: 10px; */
+      width:55%;
+      max-width: 100%;
+      /* margin-left:35px; */
+  }
+}
+
+
+@media screen and (max-width: 850px){
+  /*About*/
+  .pic{
+      flex-direction: column;
+      align-items: center;
+  }
+  .pic img{
+      width:475px;
+      height:300px;
+  }
+  .intro h2{
+      text-align: center;
+      padding: 10px;
+  }
+  .intro p{
+      margin-right: -25px;
+      line-height: 1.2;
+      font-size: 1.5rem;
+  }
+  .intro{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      padding: 10px;
+      width:80%;
+      max-width: 100%;
+      /* margin-left:35px; */
+  }
+}
+
+
+@media screen and (max-width: 532px){
+  /*About*/
+  .pic img{
+      width:350px;
+      height:175px;
+  }
+  .intro h2{
+      font-size: 1.5rem;
+  }
+  .intro p{
+      /* width:300px; */
+      margin-right: -25px;
+      line-height: 1.2;
+      font-size: 1.2rem;
+  }
+  .intro{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      padding: 10px;
+      width:80%;
+      max-width: 100%;
+      /* margin-left:35px; */
+  }
+}
+
+
+/* portfolio */
+
+.content ul li{
+  list-style-type: circle;
+}
+
+@media screen and (max-width: 850px){
+  /*About*/
+  .img-container .largepic img{
+      flex-direction: column;
+      align-items: center;
+  }
+  .img-container .largepic img{
+      width:475px;
+      height:300px;
+  }
+  .content{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      padding: 10px;
+  }
+}
+
+@media screen and (max-width: 532px){
+  /*About*/
+  .img-container .largepic img{
+      width:350px;
+      margin:10px;
+      height:175px;
+      flex-direction: column;
+      align-items: center;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
 }

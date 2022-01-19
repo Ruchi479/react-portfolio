@@ -21,16 +21,16 @@ export default function PortfolioCard(props) {
             <div className="content">
                 <ul>
                     <li>
-                        <strong>Name:</strong> {props.name}
+                        <strong><b>Name:</b></strong> {props.name}
                     </li>
                     <li>
-                        <strong>Topics:</strong> {props.topics}
+                        <strong><b>Topics:</b></strong> {props.topics}
                     </li>
                     <li>
-                        <strong>Deploy Site:</strong> {props.deploy}
+                        <a href={props.deploy} target="_blank"><strong>See the Deploy Site</strong></a>
                     </li>
                     <li>
-                        <strong>GitHub:</strong> {props.github}
+                        <a href={props.github} target="_blank"><strong>See the Code</strong></a>
                     </li>
 
                 </ul>

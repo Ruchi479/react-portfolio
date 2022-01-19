@@ -17,9 +17,12 @@ export default function Resume() {
             <section className ='resume' style={styles.resumeStyle}>
               <h1 className="headings">My Skills</h1>
               <div className="container">
-                <div className="data">
+              
+                <div className="subcontainer">
+                  <br></br>
+                    <h3>Resume</h3>
                     <a href={require("../assets/data/Ruchi_Resume.pdf")} target="_blank" rel='noreferrer'>
-                      <button className="btn">Download Resume</button>
+                      <button className="btn">Download My Resume</button>
                     </a>
                 </div>
                 <div className="subcontainer">

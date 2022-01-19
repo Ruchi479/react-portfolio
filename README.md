@@ -58,8 +58,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 * [The URL of deployed application](https://ruchi479.github.io/react-portfolio/)
 
 ## Screenshots
-![React Portfolio](../src/components/assets/ss1.png)
-![React Portfolio](../src/components/assets/ss2.png)
+![React Portfolio](./src/components/assets/ss1.png)
+![React Portfolio](././src/components/assets/ss2.png)
 
 
 ## Installation

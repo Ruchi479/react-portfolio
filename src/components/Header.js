@@ -10,6 +10,7 @@ const styles ={
         justifyContent:'center',
         alignItems:'center',
         color:'white',
+        borderBottom: '4px solid #3bb99b',
         // backgroundColor: '#5f5630',
         // background: '{img2} no-repeat center',
     },
@@ -19,8 +20,8 @@ const styles ={
         top:'10%',
     },
     text1Style:{
-        color: 'green',
-        textShadow: '2px 2px 5px maroon',
+        color: 'white',
+        textShadow: '2px 2px 5px green',
     },
     
 

@@ -42,12 +42,22 @@ export default function ContactForm() {
       color: 'white',
       padding: '30px',
     }, 
+    contactFormStyle:{
+      display:'block',
+      width:' 500px',
+      margin: '0 auto',
+      border: '1px solid #c1c1c1',
+      padding: '15px',
+      borderRadius:'5px',
+      backgroundColor: '#eaeaea',
+      marginBottom:' 50px',
+    }
   }
 
   return (
     <section className="contact" style={styles.contactStyle}>
       <h1 className='headings'>Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form className='contactFormStyle' onSubmit={handleSubmit} style={styles.contactFormStyle}>
           <label htmlFor="name">Name:</label><br/>
           <input type="text"  className="input-field" name="name" defaultValue={name} onBlur={handleChange} /><br/>
 
